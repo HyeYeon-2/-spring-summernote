@@ -45,10 +45,6 @@
             </div>
         </form>
 
-        <div id="com">
-            테스트
-        </div>
-
     </div>
 
 
