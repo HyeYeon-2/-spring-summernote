@@ -5,8 +5,8 @@
 root-context.xml
 
       		<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-		    	<property name="maxUploadSize" value="100000000"/>
-		    	<property name="maxInMemorySize" value="100000000"/>
+		    		<property name="maxUploadSize" value="100000000"/>
+		    		<property name="maxInMemorySize" value="100000000"/>
 	    		</bean>
       
       
