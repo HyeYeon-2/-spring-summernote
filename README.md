@@ -35,5 +35,24 @@ pom.xml
 			  <artifactId>gson</artifactId>
 			  <version>2.8.5</version>
 		 	 </dependency>
+			 
+
+
+		$('#summernote').summernote('insertText', 쓸 텍스트);
+
+		// 비활성화
+		$('#summernote').summernote('disable');
+
+		// 활성화
+		$('#summernote').summernote('enable');
+
+		// 리셋
+		$('#summernote').summernote('reset');
+
+		//  뒤로가기
+		$('#summernote').summernote('undo');
+
+		// 앞으로가기
+		$('#summernote').summernote('redo');
       
       
