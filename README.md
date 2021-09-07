@@ -4,16 +4,16 @@
 
 root-context.xml
 
-      		<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-		    <property name="maxUploadSize" value="100000000"/>
-		    <property name="maxInMemorySize" value="100000000"/>
-	    	</bean>
+      			<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		    	<property name="maxUploadSize" value="100000000"/>
+		    	<property name="maxInMemorySize" value="100000000"/>
+	    		</bean>
       
       
       
 pom.xml
 
-      			<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+      		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		  	<dependency>
 			  <groupId>commons-io</groupId>
 			  <artifactId>commons-io</artifactId>
@@ -21,7 +21,7 @@ pom.xml
 		 	 </dependency>
       
       
-      			<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+      		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 		  	<dependency>
 			  <groupId>com.googlecode.json-simple</groupId>
 			  <artifactId>json-simple</artifactId>
@@ -29,7 +29,7 @@ pom.xml
 		  	</dependency>
       
       
-      			<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+      		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 		  	<dependency>
 			  <groupId>com.google.code.gson</groupId>
 			  <artifactId>gson</artifactId>
