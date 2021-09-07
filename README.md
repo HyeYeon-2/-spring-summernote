@@ -38,6 +38,10 @@ pom.xml
 			 
 
 
+함수
+
+
+
 		$('#summernote').summernote('insertText', 쓸 텍스트);
 
 		// 비활성화
