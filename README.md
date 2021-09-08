@@ -60,3 +60,9 @@ pom.xml
 		$('#summernote').summernote('redo');
       
       
+입력화면
+![image](https://user-images.githubusercontent.com/84279882/132457578-22234948-148d-4f67-8b3c-688df24c9b81.png)
+
+저장 후 DB에서 가져온 화면
+![image](https://user-images.githubusercontent.com/84279882/132457828-85c9e1c1-f77c-4167-8f09-f28984b971c5.png)
+
